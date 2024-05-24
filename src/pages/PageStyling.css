@@ -1,0 +1,81 @@
+h1, h2 {
+    font-family: 'Empire';
+    padding-bottom: 1rem;
+}
+
+h1.landing-title {
+    font-size: 5em;
+    padding-top: 5rem;
+}
+
+h2 {
+    padding-top: 2rem;
+}
+
+.card-group > .card {
+    margin: 0.5rem 1rem;
+    border: none;
+    border-radius: 15px;
+    background-color: #F3F5E8;
+}
+
+.row > * {
+    width: auto;
+}
+
+.btn.btn-secondary {
+    margin-top: 1rem;
+}
+
+img.text-icon {
+    opacity: 0;
+}
+
+img.card-img {
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+.card:hover img.text-icon {
+    opacity: 1;
+}
+
+a[class='span nav-link'] {
+    display: inline;
+    padding: 0;
+}
+
+h3.subtitle {
+    opacity: 0.4;
+    padding-bottom: 0.7rem;
+}
+
+p.landing-para {
+    font-size: 1.3em;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.page {
+    background-color: #fafafa;
+}
+
+.container {
+    padding: 8rem 10rem;
+}
+
+@media (min-width: 576px) {
+    .card-group>.card:not(:first-child) {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+}
+@media (min-width: 576px) {
+    .card-group>.card:not(:last-child) {
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
