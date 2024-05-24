@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.91906ae7.css",
+    "main.js": "/portfolio/static/js/main.13a9e8e9.js",
+    "static/js/453.253ccfac.chunk.js": "/portfolio/static/js/453.253ccfac.chunk.js",
+    "static/media/SDD.svg": "/portfolio/static/media/SDD.dc6973c29328ea2de778738fbc7bc1d2.svg",
+    "static/media/synapseVR_img.svg": "/portfolio/static/media/synapseVR_img.fb14b7dc6874f8f53b336b9853106eaf.svg",
+    "static/media/F1DataVis.svg": "/portfolio/static/media/F1DataVis.60561b27b96564d018a1cbb5f6b757ab.svg",
+    "static/media/Codarsnacht.svg": "/portfolio/static/media/Codarsnacht.8183ac13e59dcf33f357883405d793bd.svg",
+    "static/media/AAC.svg": "/portfolio/static/media/AAC.8e1f65300d65127e5b58287b71685d63.svg",
+    "static/media/bookgle.svg": "/portfolio/static/media/bookgle.272083f83aab7fe6368de019a08bc401.svg",
+    "static/media/Empire.ttf": "/portfolio/static/media/Empire.3b2a422a6effbf87f7f6.ttf",
+    "static/media/Flatm8.svg": "/portfolio/static/media/Flatm8.e482b8786be2349b78845e27057f1f73.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/arrow.svg": "/portfolio/static/media/arrow.6737fd8b34c4c1e1c5dbfeec92b55fd7.svg",
+    "main.91906ae7.css.map": "/portfolio/static/css/main.91906ae7.css.map",
+    "main.13a9e8e9.js.map": "/portfolio/static/js/main.13a9e8e9.js.map",
+    "453.253ccfac.chunk.js.map": "/portfolio/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91906ae7.css",
+    "static/js/main.13a9e8e9.js"
+  ]
+}
