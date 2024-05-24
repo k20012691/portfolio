@@ -19,12 +19,13 @@ h2 {
     background-color: #F3F5E8;
 }
 
-.row > * {
+.row > .btn {
     width: auto;
 }
 
 .btn.btn-secondary {
     margin-top: 1rem;
+    float: right;
 }
 
 img.text-icon {
