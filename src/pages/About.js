@@ -56,7 +56,7 @@ function About() {
           <h2>Photography</h2>
           <p>
             My Canon Powershot SX50 HS has accompanied me to most of the places I visit. To see some of my work in travel 
-            and landscape photography, <NavLink href='/about/photography' className='span'>click here</NavLink>.
+            and landscape photography, <NavLink href='#/about/photography' className='span'>click here</NavLink>.
           </p>
         </Row>
       </Container>

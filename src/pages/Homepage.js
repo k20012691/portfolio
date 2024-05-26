@@ -73,7 +73,7 @@ function Homepage() {
           </Card>
         </CardGroup>
         <Container style={{ padding: 0, marginRight: 0 }}>
-        <Button tag='a' href='/projects'>
+        <Button tag='a' href='#/projects'>
           Show All
         </Button>
         </Container>
