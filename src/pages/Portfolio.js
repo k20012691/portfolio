@@ -25,10 +25,12 @@ function Portfolio() {
                 alt='SynapseVR'
               />
               <CardBody>
-                <CardTitle tag='h5'>
-                  synapseVR
-                  <img className='text-icon' src={arrow} alt='Arrow Icon' />
-                </CardTitle>
+                <a href='#/projects/synapsevr'>
+                  <CardTitle tag='h5'>
+                    synapseVR
+                    <img className='text-icon' src={arrow} alt='Arrow Icon' />
+                  </CardTitle>
+                </a>
                 <CardText>An AI-enabled learning platform for 3D tools like Blender. Operates in a virtual reality environment.</CardText>
               </CardBody>
         </Card>
