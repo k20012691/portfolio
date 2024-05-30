@@ -12,6 +12,8 @@ import storyboardImg from '../assets/img/synapseVR/Storyboard.jpeg'
 import personasImg from '../assets/img/synapseVR/Personas.png'
 import modificationsImg from '../assets/img/synapseVR/Modifications.png'
 import mappingImg from '../assets/img/synapseVR/2d3dMapping.png'
+import prototypingImg from '../assets/img/synapseVR/Prototyping.png'
+import sybotImg from '../assets/img/synapseVR/SyBot.png'
 
 function SynapseVR() {
   return (
@@ -132,12 +134,18 @@ function SynapseVR() {
         This was later polished into digital prototypes across two fidelities (low and medium) which was used for usability testing. 
         Feedback from these tests was integrated into the final mockups. 
         </p>
+        <Container className='img-container'>
+          <img src={prototypingImg} alt='Prototyping Stages' width='100%' />
+        </Container>
         <p>
         An important aspect of the user interface is SyBot, the AI agent responsible for allocating users to a proficiency level, 
         walking them through the course, and evaluating their tasks using comparable real-world examples. His appearance took 
         inspiration from several existing robots across TV shows and animated movies. The baby face effect, which was applied to a 
         number of these robots, played a part in SyBot’s development too. 
         </p>
+        <Container className='img-container'>
+          <img src={sybotImg} alt='SyBot' width='100%' />
+        </Container>
         <h2>Testing and Validation</h2>
         <p>
         Participants were interviewed with the high-fidelity prototypes to evaluate their effectiveness and efficiency. 
