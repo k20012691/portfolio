@@ -8,14 +8,16 @@ import synapseVR_img from '../assets/img/synapseVR_img.svg'
 import aac_img from '../assets/img/AAC.svg'
 import { Col, Container, Row, Card, CardBody, CardGroup, CardImg, CardText, CardTitle, Button } from 'reactstrap'
 
+import image from '../assets/img/WebsiteImage 2.jpeg'
+
 function Homepage() {
   return (
     <div className='page'>
       <NavigationBar />
       <Container>
-        <h1 className='landing-title'>Vedeesh Bali</h1>
         <Row xs={2}>
-          <Col>
+          <Col xs={7}>
+          <h1 className='landing-title'>Vedeesh Bali</h1>
             <p className='landing-para'>
               I'm a front-end engineer and designer based in London, UK. Currently, I'm building immersive environments at bp.
             </p>
@@ -23,11 +25,11 @@ function Homepage() {
               I like Rubik's Cubes, rollerblading, and people willing to watch sports with me.
             </p>
           </Col>
-          <Col>
-            
+          <Col xs={5}>
+            <img src={image} alt='Portrait' height='500px' style={{ paddingLeft: '2rem' }} />
           </Col>
         </Row>
-        <Row style={{ marginTop: '16vw' }}>
+        <Row style={{ marginTop: '8vw' }}>
           <h1>Featured Work</h1>
           <CardGroup>
           <Card>

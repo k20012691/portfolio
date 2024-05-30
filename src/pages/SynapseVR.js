@@ -2,7 +2,6 @@ import React from 'react'
 import './PageStyling.css'
 import NavigationBar from '../components/Nav/NavigationBar'
 import { Container } from 'reactstrap'
-import ScrollReveal from 'scrollreveal'
 
 import splashImg from '../assets/img/synapseVR/Frame 64.png'
 import processImg from '../assets/img/synapseVR/DT_Process.png'
@@ -17,12 +16,6 @@ import prototypingImg from '../assets/img/synapseVR/Prototyping.png'
 import sybotImg from '../assets/img/synapseVR/SyBot.png'
 
 function SynapseVR() {
-  ScrollReveal({ reset: true }).reveal('img', {delay: 200})
-  ScrollReveal().reveal('#ps1', {delay: 200})
-  ScrollReveal().reveal('#ps2', {delay: 250})
-  ScrollReveal().reveal('#ps3', {delay: 300})
-  ScrollReveal().reveal('#ps4', {delay: 350})
-  ScrollReveal().reveal('#ps5', {delay: 400})
   return (
     <div className='page'>
       <NavigationBar />
