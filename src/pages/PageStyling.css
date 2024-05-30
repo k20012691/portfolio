@@ -36,6 +36,18 @@ h2 {
     width: auto;
 }
 
+p, ul {
+    font-size: 1.3em;
+}
+
+p.card-text {
+    font-size: 1em;
+}
+
+p.project {
+    padding: 0 5rem 0 5rem;
+}
+
 .btn.btn-secondary {
     margin-top: 1rem;
     float: right;
@@ -92,15 +104,17 @@ p.landing-para {
 }
 
 #problem-statement {
-    font-size: 28px;
+    font-size: 1.8em;
     text-align: center;
     font-family: 'Poppins';
+    font-weight: 500;
     color: #003E95;
     padding-top: 1rem;
 }
 
+
 ul#research-questions {
-    font-size: 22px;
+    font-size: 1.4em;
     font-family: 'Poppins';
 }
 
