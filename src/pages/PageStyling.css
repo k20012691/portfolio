@@ -8,6 +8,13 @@ h1.landing-title {
     padding-top: 5rem;
 }
 
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+
 h2 {
     padding-top: 2rem;
 }
@@ -17,6 +24,12 @@ h2 {
     border: none;
     border-radius: 15px;
     background-color: #f2f4e5;
+    transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+    background-color: #E9F8ED;
+    transition: 0.2s ease-in-out;
 }
 
 .row > .btn {
@@ -26,10 +39,19 @@ h2 {
 .btn.btn-secondary {
     margin-top: 1rem;
     float: right;
+    background-color: #249B10;
+    transition: 0.2s ease-in-out;
+    border: none;
+}
+
+.btn.btn-secondary:hover {
+    background-color: #117800;
+    transition: 0.2s ease-in-out;
 }
 
 img.text-icon {
     opacity: 0;
+    transition: 0.3s ease-in-out;
 }
 
 img.card-img {
@@ -38,6 +60,7 @@ img.card-img {
 
 .card:hover img.text-icon {
     opacity: 1;
+    transition: 0.3s ease-in-out;
 }
 
 a[class='span nav-link'] {
@@ -68,6 +91,26 @@ p.landing-para {
     padding: 8rem 10rem;
 }
 
+#problem-statement {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Poppins';
+    color: #003E95;
+    padding-top: 1rem;
+}
+
+ul#research-questions {
+    font-size: 22px;
+    font-family: 'Poppins';
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 5rem;
+}
+
 summary.maplibregl-ctrl-attrib-button {
     display: none;
 }
@@ -90,6 +133,10 @@ details.maplibregl-ctrl {
     height: 500px;
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+img#splash-img {
+    padding-bottom: 5rem;
 }
 
 @media (min-width: 576px) {

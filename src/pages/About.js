@@ -51,7 +51,7 @@ function About() {
           <Col>
           </Col>
         </Row>
-        <Row>
+        <Row style={{ padding: '2rem 0 2rem 0' }}>
           <Col xs={8}>
             <Map
               initialViewState={{
