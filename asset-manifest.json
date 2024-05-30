@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.48f1c908.css",
-    "main.js": "/portfolio/static/js/main.f059888b.js",
+    "main.js": "/portfolio/static/js/main.a971a4d4.js",
     "static/js/66.3a593c2d.chunk.js": "/portfolio/static/js/66.3a593c2d.chunk.js",
     "static/js/453.253ccfac.chunk.js": "/portfolio/static/js/453.253ccfac.chunk.js",
     "static/media/SDD.svg": "/portfolio/static/media/SDD.dc6973c29328ea2de778738fbc7bc1d2.svg",
     "static/media/synapseVR_img.svg": "/portfolio/static/media/synapseVR_img.fb14b7dc6874f8f53b336b9853106eaf.svg",
     "static/media/F1DataVis.svg": "/portfolio/static/media/F1DataVis.60561b27b96564d018a1cbb5f6b757ab.svg",
     "static/media/Frame 64.png": "/portfolio/static/media/Frame 64.d01b2d433ca77773d16d.png",
+    "static/media/WebsiteImage 2.jpeg": "/portfolio/static/media/WebsiteImage 2.05490624da8935749d34.jpeg",
     "static/media/Codarsnacht.svg": "/portfolio/static/media/Codarsnacht.8183ac13e59dcf33f357883405d793bd.svg",
     "static/media/Prototyping.png": "/portfolio/static/media/Prototyping.46ebbb49d394bdc5d825.png",
     "static/media/SyBot.png": "/portfolio/static/media/SyBot.8c02de8ae25e29fe5c1e.png",
@@ -26,12 +27,12 @@
     "index.html": "/portfolio/index.html",
     "static/media/arrow.svg": "/portfolio/static/media/arrow.6737fd8b34c4c1e1c5dbfeec92b55fd7.svg",
     "main.48f1c908.css.map": "/portfolio/static/css/main.48f1c908.css.map",
-    "main.f059888b.js.map": "/portfolio/static/js/main.f059888b.js.map",
+    "main.a971a4d4.js.map": "/portfolio/static/js/main.a971a4d4.js.map",
     "66.3a593c2d.chunk.js.map": "/portfolio/static/js/66.3a593c2d.chunk.js.map",
     "453.253ccfac.chunk.js.map": "/portfolio/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48f1c908.css",
-    "static/js/main.f059888b.js"
+    "static/js/main.a971a4d4.js"
   ]
 }
