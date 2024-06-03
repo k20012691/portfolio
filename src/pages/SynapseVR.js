@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './PageStyling.css'
 import NavigationBar from '../components/Nav/NavigationBar'
 import { Container } from 'reactstrap'
@@ -15,7 +15,12 @@ import mappingImg from '../assets/img/synapseVR/2d3dMapping.png'
 import prototypingImg from '../assets/img/synapseVR/Prototyping.png'
 import sybotImg from '../assets/img/synapseVR/SyBot.png'
 
-function SynapseVR() {
+function SynapseVR() { 
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className='page'>
       <NavigationBar />

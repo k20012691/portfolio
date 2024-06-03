@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import NavigationBar from '../components/Nav/NavigationBar'
 
 import './PageStyling.css'
@@ -13,6 +13,11 @@ import arrow from '../assets/img/arrow.svg'
 import { Card, CardBody, CardGroup, CardImg, CardText, CardTitle, Container } from 'reactstrap'
 
 function Portfolio() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className='page'>
       <NavigationBar />
