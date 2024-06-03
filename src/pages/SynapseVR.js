@@ -14,6 +14,7 @@ import modificationsImg from '../assets/img/synapseVR/Modifications.png'
 import mappingImg from '../assets/img/synapseVR/2d3dMapping.png'
 import prototypingImg from '../assets/img/synapseVR/Prototyping.png'
 import sybotImg from '../assets/img/synapseVR/SyBot.png'
+import ImgSlide, { ImgSlideHorizontal, ImgSlideLeft } from '../components/ImgSlide/ImgSlide'
 
 function SynapseVR() { 
 
@@ -25,7 +26,10 @@ function SynapseVR() {
     <div className='page'>
       <NavigationBar />
       <Container>
-        <img src={splashImg} alt='Poster' width='100%' id='splash-img' />
+        <ImgSlide damping={8} children={
+          <img src={splashImg} alt='Poster' width='100%' id='splash-img' />
+        }>
+        </ImgSlide>
         <p className='project'>
         My journey before starting at bp was a multifaceted one. I had worked with many tools and technologies 
         spread out across software development, UI design, testing, and productivity. 
@@ -37,7 +41,10 @@ function SynapseVR() {
         unfamiliar terminology, and a whole new way of thinking spatially. It was like learning a new language, with a steep learning curve.
         </p>
         <Container className='img-container'>
-        <img src={mappingImg} alt='2D to 3D' height='200' />
+        <ImgSlideHorizontal translateX={-50} damping={8} children={
+          <img src={mappingImg} alt='2D to 3D' height='200' />
+        }
+        />
         </Container>
         <p className='project'>
         I attempted to conquer this hurdle by diving deep into the available online resources - YouTube videos, online courses, and blogposts. 
@@ -66,7 +73,9 @@ function SynapseVR() {
         conducted to iron out creases in the solution.
         </p>
         <Container className='img-container'>
-        <img src={processImg} alt='Design Thinking Model' />
+        <ImgSlideHorizontal translateX={50} damping={8} children={
+          <img src={processImg} alt='Design Thinking Model' />
+        } />
         </Container>
         <h2>User Research</h2>
         <p className='project'>
@@ -93,20 +102,30 @@ function SynapseVR() {
         Widening AI tool applicability via flexible learning.
         </p>
         <Container className='img-container'>
-          <img src={researchImg} alt='Affinity Diagrams' width='100%' />
+          <ImgSlideHorizontal translateX={50} damping={8} children={
+            <img src={researchImg} alt='Affinity Diagrams' width='100%' />
+          } />
         </Container>
         <Container className='img-container'>
-          <img src={problemStatementMapImg} alt='Problem Statement Map' width='100%' />
+          <ImgSlideHorizontal translateX={-50} damping={8} children={
+            <img src={problemStatementMapImg} alt='Problem Statement Map' width='100%' />
+          }
+        />
         </Container>
         <h2>Defining The Problem</h2>
         <Container className='img-container' style={{ paddingTop: 0 }}>
-          <span id='problem-statement'>
-          <span id='ps1'>“Designers and developers at bp lack access to</span><br /> 
-          <span id='ps2'>interactive and engaging learning materials when they</span><br />
-          <span id='ps3'>are trying to expand their skill set into 3D technologies.</span><br /> 
-          <span id='ps4'>This hinders their ability to quickly and effectively utilise</span><br /> 
-          <span id='ps5'>AI for up-skilling purposes across a variety of roles.”</span>
-          </span>
+          <ImgSlide
+            children={
+              <span id='problem-statement'>
+              “Designers and developers at bp lack access to
+              interactive and engaging learning materials when they
+              are trying to expand their skill set into 3D technologies.
+              This hinders their ability to quickly and effectively utilise
+              AI for up-skilling purposes across a variety of roles.”
+              </span>
+            }
+            damping={10}
+          />
         </Container>
         <p className='project'>
         Determining the root causes behind the insights collected from users was crucial for the 
@@ -115,13 +134,19 @@ function SynapseVR() {
         engineers and designers who wanted to expand their skill set into such tools.
         </p>
         <Container className='img-container'>
-          <img src={personasImg} alt='Personas' width='100%' />
+          <ImgSlideHorizontal translateX={50} damping={8} children={
+            <img src={personasImg} alt='Personas' width='100%' />
+          }
+        />
         </Container>
         <p className='project'>
         From these four user groups, I proceeded to create a storyboard entailing my desired user experience with regards to the product.
         </p>
         <Container className='img-container'>
-          <img src={storyboardImg} alt='Storyboard' width='100%' />
+          <ImgSlideHorizontal translateX={-50} damping={8} children={
+            <img src={storyboardImg} alt='Storyboard' width='100%' />
+          }
+        />
         </Container>
         <h2>App Features and Specifications</h2>
         <p className='project'>
@@ -129,7 +154,10 @@ function SynapseVR() {
         technical requirements for it. These were polished into features which were prioritised using a 2×2 matrix.
         </p>
         <Container className='img-container'>
-          <img src={matrixImg} alt='Feature Prioritisation Matrix' width='100%' />
+          <ImgSlideHorizontal translateX={50} damping={8} children={
+            <img src={matrixImg} alt='Feature Prioritisation Matrix' width='100%' />
+          }
+          />
         </Container>
         <p className='project'>
         To further define the set of actions available to users within the program, a navigational flow was created that maps out the 
@@ -142,7 +170,10 @@ function SynapseVR() {
         Feedback from these tests was integrated into the final mockups. 
         </p>
         <Container className='img-container'>
-          <img src={prototypingImg} alt='Prototyping Stages' width='100%' />
+          <ImgSlideHorizontal translateX={-50} damping={8} children={
+            <img src={prototypingImg} alt='Prototyping Stages' width='100%' />
+          }
+          />
         </Container>
         <p className='project'>
         An important aspect of the user interface is SyBot, the AI agent responsible for allocating users to a proficiency level, 
@@ -151,7 +182,10 @@ function SynapseVR() {
         number of these robots, played a part in SyBot’s development too. 
         </p>
         <Container className='img-container'>
-          <img src={sybotImg} alt='SyBot' width='100%' />
+          <ImgSlideHorizontal translateX={-50} damping={8} children={
+            <img src={sybotImg} alt='SyBot' width='100%' />
+          }
+          />
         </Container>
         <h2>Testing and Validation</h2>
         <p className='project'>
@@ -165,7 +199,10 @@ function SynapseVR() {
         changes across three levels: critical, major/minor, and cosmetic.
         </p>
         <Container className='img-container' style={{ padding: '2rem 0rem' }}>
-          <img src={modificationsImg} alt='Product Modifications' width='100%' />
+          <ImgSlideHorizontal translateX={50} damping={8} children={
+            <img src={modificationsImg} alt='Product Modifications' width='100%' />
+          }
+          />
         </Container>
         <h2>Final Product</h2>
         <iframe title='Final Mockup' width="100%" height='800' src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Ftv6Xw0QbdP5tLpVDEfBdey%2FAI-Education-Prototypes%3Fnode-id%3D208-193%26t%3DgEM7y5omJfgx2ZET-1%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D208%253A193%26show-proto-sidebar%3D1&hide-ui=1" allowfullscreen></iframe>
