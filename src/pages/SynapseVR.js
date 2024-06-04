@@ -14,7 +14,7 @@ import modificationsImg from '../assets/img/synapseVR/Modifications.png'
 import mappingImg from '../assets/img/synapseVR/2d3dMapping.png'
 import prototypingImg from '../assets/img/synapseVR/Prototyping.png'
 import sybotImg from '../assets/img/synapseVR/SyBot.png'
-import ImgSlide, { ImgSlideHorizontal, ImgSlideLeft } from '../components/ImgSlide/ImgSlide'
+import ImgSlide, { ImgSlideHorizontal } from '../components/ImgSlide/ImgSlide'
 
 function SynapseVR() { 
 
