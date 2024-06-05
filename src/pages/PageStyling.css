@@ -8,6 +8,10 @@ h1.landing-title {
     padding-top: 5rem;
 }
 
+p, span, #text {
+    cursor: default;
+}
+
 .poppins-medium {
     font-family: "Poppins", sans-serif;
     font-weight: 500;

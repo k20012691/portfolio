@@ -1,0 +1,14 @@
+.footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 10rem 4rem 10rem;
+}
+
+#code {
+    color: #006251;
+    font-size: 1.1em;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+}

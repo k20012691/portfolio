@@ -7,6 +7,7 @@ import arrow from '../assets/img/arrow.svg'
 import synapseVR_img from '../assets/img/synapseVR_img.svg'
 import aac_img from '../assets/img/AAC.svg'
 import { Col, Container, Row, Card, CardBody, CardGroup, CardImg, CardText, CardTitle, Button } from 'reactstrap'
+import Footer from '../components/Footer/Footer'
 
 import image from '../assets/img/WebsiteImage 2.jpeg'
 
@@ -83,6 +84,7 @@ function Homepage() {
         </Container>
         </Row>
       </Container>
+      <Footer />
     </div>
   )
 }

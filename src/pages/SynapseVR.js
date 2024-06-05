@@ -15,6 +15,7 @@ import mappingImg from '../assets/img/synapseVR/2d3dMapping.png'
 import prototypingImg from '../assets/img/synapseVR/Prototyping.png'
 import sybotImg from '../assets/img/synapseVR/SyBot.png'
 import ImgSlide, { ImgSlideHorizontal } from '../components/ImgSlide/ImgSlide'
+import Footer from '../components/Footer/Footer'
 
 function SynapseVR() { 
 
@@ -207,6 +208,7 @@ function SynapseVR() {
         <h2>Final Product</h2>
         <iframe title='Final Mockup' width="100%" height='800' src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Ftv6Xw0QbdP5tLpVDEfBdey%2FAI-Education-Prototypes%3Fnode-id%3D208-193%26t%3DgEM7y5omJfgx2ZET-1%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D208%253A193%26show-proto-sidebar%3D1&hide-ui=1" allowfullscreen></iframe>
         </Container>
+        <Footer />
     </div>
   )
 }

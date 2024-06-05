@@ -6,6 +6,7 @@ import { Container, Row, Col, NavLink } from 'reactstrap'
 import { Map } from 'react-map-gl/maplibre'
 import Country from '../components/Country/Country'
 import "../../node_modules/maplibre-gl/dist/maplibre-gl.css";
+import Footer from '../components/Footer/Footer'
 
 function About() {
   const [coordinates, setCoordinates] = useState([]);
@@ -161,6 +162,7 @@ function About() {
           </p>
         </Row> */}
       </Container>
+      <Footer />
     </div>
   )
 }

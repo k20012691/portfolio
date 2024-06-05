@@ -11,6 +11,7 @@ import sdd_img from '../assets/img/SDD.svg'
 import f1_img from '../assets/img/F1DataVis.svg'
 import arrow from '../assets/img/arrow.svg'
 import { Card, CardBody, CardGroup, CardImg, CardText, CardTitle, Container } from 'reactstrap'
+import Footer from '../components/Footer/Footer'
 
 function Portfolio() {
 
@@ -133,6 +134,7 @@ function Portfolio() {
           </Card>
         </CardGroup>
       </Container>
+      <Footer />
     </div>
   )
 }
