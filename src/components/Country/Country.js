@@ -6,7 +6,10 @@ import Flag from 'react-world-flags'
 function Country(props) {
 
   function handleClick(lat, lon) {
-    props.sendCoords([props.lat, props.lon])
+    props.sendCoords({
+      latitude: props.lat,
+      longitude: props.lon
+    })
   }
 
   return (

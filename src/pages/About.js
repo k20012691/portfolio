@@ -3,13 +3,24 @@ import NavigationBar from '../components/Nav/NavigationBar'
 
 import './PageStyling.css'
 import { Container, Row, Col, NavLink } from 'reactstrap'
-import { Map } from 'react-map-gl/maplibre'
+import { Map, MapProvider } from 'react-map-gl/maplibre'
 import Country from '../components/Country/Country'
 import "../../node_modules/maplibre-gl/dist/maplibre-gl.css";
 import Footer from '../components/Footer/Footer'
+import { useMap } from 'react-map-gl/maplibre'
 
 function About() {
-  const [coordinates, setCoordinates] = useState([]);
+  const [coordinates, setCoordinates] = useState({
+    latitude: 51.5,
+    longitude: -0.1,
+    zoom: 5,
+  });
+
+  function FlyToCoordinates() {
+    const {current: map} = useMap();
+    // map.flyTo(coordinates)
+    console.log(map)
+  }
 
   function handleCountryChange(coords) {
     const updatePromise = new Promise((resolve) => {
@@ -19,7 +30,7 @@ function About() {
     updatePromise.then(() => {
       console.log(`final coords: ${coordinates}`);
     });
-    console.log(`received ${coords}`);
+    console.log(`received ${JSON.stringify(coords)}`);
   }
 
   useEffect(() => {
@@ -54,15 +65,17 @@ function About() {
         </Row>
         <Row style={{ padding: '2rem 0 2rem 0' }}>
           <Col xs={8}>
-            <Map
-              initialViewState={{
-                latitude: 51.5,
-                longitude: -0.1,
-                zoom: 5,
-              }}
+          <MapProvider>
+          <Map
+              initialViewState={coordinates}
+              // zoom={5}
+              // latitude={coordinates.latitude}
+              // longitude={coordinates.longitude}
               mapStyle="https://api.maptiler.com/maps/5e4b20c9-ef20-43c3-b193-1b73b78bb177/style.json?key=EwzBAOd5pizuaQtP2h4o"
               style={{ height: 500, borderRadius: '15px'}}
             />
+            <FlyToCoordinates />
+          </MapProvider>
           </Col>
           <Col xs={4}>
             <Container className='map-container'>
@@ -154,13 +167,13 @@ function About() {
 
           </Col>
         </Row>
-        {/* <Row>
+        <Row>
           <h2>Photography</h2>
           <p>
             My Canon Powershot SX50 HS has accompanied me to most of the places I visit. To see some of my work in travel 
             and landscape photography, <NavLink href='#/about/photography' className='span'>click here</NavLink>.
           </p>
-        </Row> */}
+        </Row>
       </Container>
       <Footer />
     </div>

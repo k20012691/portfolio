@@ -157,6 +157,16 @@ img#splash-img {
     padding-bottom: 5rem;
 }
 
+.custom-overlay__caption {
+    padding: 0.6rem;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+}
+
+.ReactGridGallery_custom-overlay {
+    transition: 0.2s ease-in-out;
+}
+
 @media (min-width: 576px) {
     .card-group>.card:not(:first-child) {
         border-top-left-radius: 15px;
