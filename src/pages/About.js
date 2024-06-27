@@ -84,8 +84,8 @@ function About() {
                 code='ES' 
                 name='Barcelona, ES'
                 year='2024'
-                lat='50.0'
-                lon='14.4'
+                lat='41.3'
+                lon='2.1'
                 sendCoords={handleCountryChange}
               />
               <Country 
