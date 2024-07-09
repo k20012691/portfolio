@@ -106,7 +106,7 @@ p.landing-para {
 #problem-statement {
     font-size: 1.8em;
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", "Empire" sans-serif;
     font-weight: 500;
     font-style: normal;
     color: #003E95;
@@ -116,7 +116,7 @@ p.landing-para {
 
 ul#research-questions {
     font-size: 1.4em;
-    font-family: 'Poppins';
+    font-family: 'Poppins', 'Empire';
 }
 
 .img-container {
