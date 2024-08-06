@@ -1,3 +1,3 @@
 # Personal Website
 
-This is the most recent version of my personal website. It has been created using React and MUI.
+v2 of my personal website with styling changes, performance optimisation, and other updates.
